@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+# uncomment if you want to manage cocoapods with bundler too
+# gem "cocoapods"
+gem "cocoapods-fix-react-native"
