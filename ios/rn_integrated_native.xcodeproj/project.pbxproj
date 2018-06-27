@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D4D116683BE72F2122F16E1A /* Pods_rn_integrated_native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3051C35521AF44DBBCD38860 /* Pods_rn_integrated_native.framework */; };
+		F5237AC320C4192700786F4A /* UIViewController+ReactNative.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5237AC220C4192700786F4A /* UIViewController+ReactNative.swift */; };
 		F5EF44CE20C40C4300D1F298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF44CD20C40C4300D1F298 /* AppDelegate.swift */; };
 		F5EF44D020C40C4300D1F298 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF44CF20C40C4300D1F298 /* ViewController.swift */; };
 		F5EF44D320C40C4300D1F298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EF44D120C40C4300D1F298 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		29F2311EBA2B161653C16030 /* Pods-rn_integrated_native.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_integrated_native.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rn_integrated_native/Pods-rn_integrated_native.debug.xcconfig"; sourceTree = "<group>"; };
 		3051C35521AF44DBBCD38860 /* Pods_rn_integrated_native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rn_integrated_native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B38950E142720DE4806D8C /* Pods-rn_integrated_native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_integrated_native.release.xcconfig"; path = "Pods/Target Support Files/Pods-rn_integrated_native/Pods-rn_integrated_native.release.xcconfig"; sourceTree = "<group>"; };
+		F5237AC220C4192700786F4A /* UIViewController+ReactNative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ReactNative.swift"; sourceTree = "<group>"; };
 		F5EF44CA20C40C4300D1F298 /* rn_integrated_native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rn_integrated_native.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EF44CD20C40C4300D1F298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5EF44CF20C40C4300D1F298 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				F5EF44CD20C40C4300D1F298 /* AppDelegate.swift */,
 				F5EF44CF20C40C4300D1F298 /* ViewController.swift */,
+				F5237AC220C4192700786F4A /* UIViewController+ReactNative.swift */,
 				F5EF44D120C40C4300D1F298 /* Main.storyboard */,
 				F5EF44D420C40C4300D1F298 /* Assets.xcassets */,
 				F5EF44D620C40C4400D1F298 /* LaunchScreen.storyboard */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5237AC320C4192700786F4A /* UIViewController+ReactNative.swift in Sources */,
 				F5EF44D020C40C4300D1F298 /* ViewController.swift in Sources */,
 				F5EF44CE20C40C4300D1F298 /* AppDelegate.swift in Sources */,
 			);
